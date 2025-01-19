@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from common import parse_arguments, get_input_lists
+from adventofcode.twentytwentyfour.common import parse_arguments
+from .common import get_input_lists
 
 def calculate_total_distance(list_one: list[int], list_two: list[int]) -> int:
     """calculate the sum total of the distance between pairs in the lists.

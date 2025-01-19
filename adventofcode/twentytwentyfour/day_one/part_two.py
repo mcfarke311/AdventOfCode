@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from common import parse_arguments, get_input_lists
+from adventofcode.twentytwentyfour.common import parse_arguments
+from .common import get_input_lists
 
 
 def calculate_similarity_score(left_list: list[int], right_list: list[int]) -> int:
